@@ -59,7 +59,6 @@
         <service android:name=".RegistrationIntentService"
             android:exported="false" />
 
-        <activity android:name=".ChatActivity"></activity>
     </application>
 
 </manifest>

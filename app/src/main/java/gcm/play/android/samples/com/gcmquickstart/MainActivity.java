@@ -49,12 +49,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
-import java.util.List;
-
-
 
 public class MainActivity extends AppCompatActivity {
-
 
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private static final String TAG = "MainActivity";
@@ -108,9 +104,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         btn = (Button)findViewById(R.id.send);
-        Log.v("before press ", "aaaaaaaaaaaaaaaaaaaaaaaaa");
-
-//        EditText editName = (EditText)findViewById(R.id.userName);
         editMsg = (EditText)findViewById(R.id.message);
         editName = (EditText)findViewById(R.id.userName);
 

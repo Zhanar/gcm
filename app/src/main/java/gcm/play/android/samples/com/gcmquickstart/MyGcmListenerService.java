@@ -53,11 +53,6 @@ public class MyGcmListenerService extends GcmListenerService {
         goMain.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
                 Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         getApplicationContext().startActivity(goMain);
-//        setResult(RESULT_OK, data);
-//        finish();
-//        Intent intent = new Intent(MyGcmListenerService.this, MainActivity.class);
-//        intent.putExtra("message", message);
-//        startActivity(intent);
 
         if (from.startsWith("/topics/")) {
             // message received from some topic.
